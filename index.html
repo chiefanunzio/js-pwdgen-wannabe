@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>first js doc</title>
+    <link rel="icon" href="favicon.ico">
+  </head>
+  <body>
+    <h1 id="hello">ciao mondo</h1>
+    <style media="screen">
+      body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: radial-gradient(circle, rgba(2,0,36,0) 0%, rgba(26,121,9,1) 67%); :
+      }
+
+      #hello{
+        color: #006900;
+      }
+    </style>
+    <script>
+        var nome = prompt('inserisci il tuo nome');
+        var cognome = prompt('inserisci il tuo cognome');
+        var eta = prompt('inserisci la tua eta');
+        var colore = prompt('inserisci il tuo colore preferito');
+        var res = nome + cognome + eta + colore ;
+        document.getElementById('hello').innerHTML = res;
+    </script>
+  </body>
+</html>
